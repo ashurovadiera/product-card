@@ -51,6 +51,10 @@ body {
   position: relative;
 }
 
+.product-photo {
+  width: 290px;
+}
+
 .badge-hit {
   position: absolute;
   top: 10px;
