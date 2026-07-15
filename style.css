@@ -83,13 +83,16 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  color: gold;
   white-space: nowrap;
   overflow: hidden;
   width: var(--rating); 
 }
 
-.product-card__rating-empty {
+.product-card__rating-filled--gold {
+  color: gold;
+}
+
+.product-card__rating-empty--gray {
   color: #a6a6a6;
 }
 
