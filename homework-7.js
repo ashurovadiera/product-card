@@ -20,7 +20,7 @@ function checkSpeed(speed) {
   } else if (speed < speedOfLight){
     console.log("Субсветовая скорость");
   } else {
-    console.log("Скорость света")
+    console.log("Скорость света");
   }
 }
 // Проверяем
