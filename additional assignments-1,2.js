@@ -234,8 +234,7 @@ name: 'Phone',
 price: 300000,
 color: 'black'
 };
-console.log(product.name, product.price);
-
+console.log(` ${product.name} стоит ${product.price}`);
 
 const product1 = {    //9.
   ...product,
@@ -310,7 +309,7 @@ console.log(numbers1)
 const fruits1 = ['apple', 'banana', 'orange'];
 console.log(fruits1[0])    //17.
 console.log(fruits1[1])    //18.
-console.log(fruits1[2])    //19.
+console.log(fruits1[fruits1.length-1]);    //19.
 
 
 //20. Выведит 'green'
